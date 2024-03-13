@@ -1,0 +1,42 @@
+---
+title: "**SAUDE**"
+subtitle: "Sistema de Avaliação e Utilização de Dados sobre Envelhecimento"
+author:
+  - "Alexandre Gomes Sancho, candidato DSC"
+  - "Arthur de Sá Ferreira, DSc"
+date: "`r Sys.Date()`"
+---
+
+<br>
+
+# Introdução
+
+A ciência cidadã, amplamente definida como a participação de não cientistas no processo de pesquisa para o avanço da ciência, está relacionada à saúde e representa um meio de envolver os idosos diretamente em pesquisas participativas contextualmente relevantes que podem melhorar suas percepções de empoderamento, saúde, autonomia e do ambiente coletivo. Relacionar as modificações que ocorrem durante o processo de envelhecimento associado a fatores ambientais, que podem impor barreiras ou incentivos, e sociais melhoram o entendimento de como estes podem afetar diretamente os idosos, com progressiva perda da atividade física, capacidade funcional, comprometimento da autonomia e independência, aumentando a suscetibilidade e vulnerabilidade a patologias e risco de óbito.
+
+<br>
+
+## Objetivo geral
+
+Avaliar e acompanhar os fatores que influenciam a funcionalidade, atividade física e saúde autopercebida de idosos, através de uma plataforma online baseada na abordagem ciência cidadã.
+
+<br>
+
+## Objetivos específicos
+
+1.	Mapear a literatura sobre as aplicações da ciência cidadã para a área de saúde, com foco em reabilitação; 
+
+2.	Criar uma plataforma online Sistema de Avaliação e Utilização de Dados sobre Envelhecimento (SAUDE) para registro, acompanhamento e análise agregada e estruturada de dados sobre funcionalidade e atividade física para planejamentos, ações e impactos voltados à promoção da saúde de idosos;
+
+3.	Descrever o perfil funcional e de atividade física da população idosa;
+
+4.	Identificar as principais barreiras e agentes facilitadores do engajamento de idosos para funcionalidade e atividade física;
+
+5.	Identificar fatores sociodemográficos associados às barreiras e agentes facilitadores do engajamento de idosos para funcionalidade e atividade física;
+
+6.	Propor um projeto de política pública direcionada à promoção da saúde e bem-estar da população idosa.
+
+<br>
+
+<center> CLIQUE AQUI PARA PARTICIPAR </center>
+
+<br>

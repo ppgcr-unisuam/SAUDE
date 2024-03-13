@@ -1,0 +1,37 @@
+---
+title: "**SAUDE**"
+subtitle: "Sistema de Avaliação e Utilização de Dados sobre Envelhecimento"
+author:
+  - "Alexandre Gomes Sancho, candidato DSC"
+  - "Arthur de Sá Ferreira, DSc"
+date: "`r Sys.Date()`"
+repository_url: https://ppgcr-unisuam.github.io/SAUDE/
+creative_commons: CC BY-NC
+output_dir: docs
+search: true
+navbar:
+  left:
+    - text: ""
+      icon: "fa-home"
+      href: [index.html]
+
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
+    css:
+      - style.css
+      - ./CSS/responsive.css
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    edit: null
+    sharing:
+      facebook: yes
+      twitter: yes
+      google: yes
+      all:
+        - facebook
+        - twitter
+        - google
+---
