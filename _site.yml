@@ -7,6 +7,8 @@ author:
 date: "`r Sys.Date()`"
 repository_url: https://ppgcr-unisuam.github.io/SAUDE/
 creative_commons: CC BY-NC
+includes:
+  - google-translate.html
 output_dir: docs
 navbar:
   left:
