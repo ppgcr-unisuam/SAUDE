@@ -284,7 +284,8 @@ $(document).ready(function () {
 </div>
 <p><br> <button id="startButton">Start</button>
 <button id="stopButton">Stop</button>
-<button id="resetButton">Reset</button></p>
+<button id="resetButton">Reset</button> <button id="emailButton">Send
+Time via Email</button></p>
 <p><br></p>
 </center>
 <script>
@@ -327,10 +328,20 @@ function resetClock() {
     updateClock(); // Update display to 00:00:00
 }
 
+// Function to send the clock time via email
+function sendEmail() {
+    const timeString = formatTime(elapsedSeconds);
+    const email = "example@example.com"; // Replace with your email
+    const subject = "Clock Time";
+    const body = `${timeString}`;
+    window.location.href = `mailto:alexandresancho.fisio@gmaillcom?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+
 // Event listeners for buttons
 document.getElementById("startButton").onclick = startClock;
 document.getElementById("stopButton").onclick = stopClock;
 document.getElementById("resetButton").onclick = resetClock;
+document.getElementById("emailButton").onclick = sendEmail;
 </script>
 
 
