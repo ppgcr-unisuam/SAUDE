@@ -9,6 +9,14 @@ date: "`r Sys.Date()`"
 
 <br>
 
+<center>
+
+<a style="font-size:1em;border-width:3px;border-style:solid; border-color:white; border-radius:15px; padding: 10px 100px 10px 100px; background-color:#276DC2; text-decoration:none; color:white; width: 100%; display: block;" href="timed-up-and-go.html"><b>Timed-Up and Go</b></a>
+
+</center>
+
+<br>
+
 # Introdução
 
 A ciência cidadã, amplamente definida como a participação de não cientistas no processo de pesquisa para o avanço da ciência, está relacionada à saúde e representa um meio de envolver os idosos diretamente em pesquisas participativas contextualmente relevantes que podem melhorar suas percepções de empoderamento, saúde, autonomia e do ambiente coletivo. Relacionar as modificações que ocorrem durante o processo de envelhecimento associado a fatores ambientais, que podem impor barreiras ou incentivos, e sociais melhoram o entendimento de como estes podem afetar diretamente os idosos, com progressiva perda da atividade física, capacidade funcional, comprometimento da autonomia e independência, aumentando a suscetibilidade e vulnerabilidade a patologias e risco de óbito.

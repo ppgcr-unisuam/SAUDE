@@ -1,0 +1,71 @@
+---
+title: "**Timed-Up and Go**"
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
+    css:
+      - style.css
+      - ./CSS/responsive.css
+---
+
+<center>
+
+<br>
+
+<div id="clock" style="font-size: 48px;">00:00:00</div>
+<br>
+<button id="startButton">Start</button>
+<button id="stopButton">Stop</button>
+<button id="resetButton">Reset</button>
+
+<br>
+
+</center>
+
+
+<script>
+let timer;
+let isRunning = false;
+let elapsedSeconds = 0; // To track elapsed time
+
+function formatTime(seconds) {
+    const hours = String(Math.floor(seconds / 3600)).padStart(2, '0');
+    const minutes = String(Math.floor((seconds % 3600) / 60)).padStart(2, '0');
+    const secs = String(seconds % 60).padStart(2, '0');
+    return `${hours}:${minutes}:${secs}`;
+}
+
+function updateClock() {
+    document.getElementById("clock").innerHTML = formatTime(elapsedSeconds);
+}
+
+// Function to start the clock
+function startClock() {
+    if (!isRunning) {
+        timer = setInterval(() => {
+            elapsedSeconds++;
+            updateClock();
+        }, 1000);
+        isRunning = true;
+    }
+}
+
+// Function to stop the clock
+function stopClock() {
+    clearInterval(timer);
+    isRunning = false;
+}
+
+// Function to reset the clock
+function resetClock() {
+    stopClock();
+    elapsedSeconds = 0; // Reset elapsed time
+    updateClock(); // Update display to 00:00:00
+}
+
+// Event listeners for buttons
+document.getElementById("startButton").onclick = startClock;
+document.getElementById("stopButton").onclick = stopClock;
+document.getElementById("resetButton").onclick = resetClock;
+</script>
