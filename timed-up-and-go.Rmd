@@ -70,7 +70,7 @@ function sendEmail() {
     const email = "example@example.com"; // Replace with your email
     const subject = "Clock Time";
     const body = `${timeString}`;
-    window.location.href = `mailto:alexandresancho.fisio@gmaillcom?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:alexandresancho.fisio@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
 
 // Event listeners for buttons
