@@ -14,7 +14,7 @@ bsplus::bs_accordion(id = "testes") |>
     title =  htmltools::HTML("<span style='font-size: 30px; display: block; text-align: center; padding: 10px 30px 10px 30px;'>
                              Avalie seu risco de quedas
                              <br>
-                             <i class=\"fa-solid fa-person-walking-arrow-right\"></i>
+                             <i class=\"fa-solid fa-person-falling\"></i>
                              </span>"),
     content = htmltools::HTML(
       "<div style='font-size: 20px;'>
@@ -38,7 +38,7 @@ bsplus::bs_accordion(id = "testes") |>
           <br><br>
           A recent study published in 2022 found that the TUG test is a strong mortality predictor, displacing other established risk factors such as chronic diseases in geriatric populations of low and middle income countries. 
           <br><br>
-          Teste agora! <a href='timed-up-and-go.html'>Timed-Up and Go</a>
+          Teste agora! <a href='sentar-e-levantar.html'>Sentar e levantar</a>
       </div>"
       )
     )|>
@@ -54,7 +54,7 @@ bsplus::bs_accordion(id = "testes") |>
           <br><br>
           A recent study published in 2022 found that the TUG test is a strong mortality predictor, displacing other established risk factors such as chronic diseases in geriatric populations of low and middle income countries. 
           <br><br>
-          Teste agora! <a href='timed-up-and-go.html'>Timed-Up and Go</a>
+          Teste agora! <a href='apoio-unipodal.html'>Apoio unipodal</a>
       </div>"
       )
     )

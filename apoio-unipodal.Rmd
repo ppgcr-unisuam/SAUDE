@@ -1,13 +1,12 @@
 ---
-title: "**Timed-Up and Go**"
+title: "**Sentar e Levantar**"
 ---
 
-Consiste no tempo que o indivíduo leva para levantar-se de uma cadeira, caminhar 3 metros, contornar um obstáculo (como um cone) e retornar à cadeira para sentar-se novamente.
+No teste é solicitado ao indivíduo permanecer com os braços ao lado do corpo. Inicia-se a contagem do tempo quando o indivíduo retira uma perna do solo e fica apoiado somente em um dos pés, sendo interrompido quando ele coloca o pé suspenso no chão ou chega ao tempo máximo de 30 segundos. 
 
-Instruções para o teste: O teste consiste em levantar-se de uma cadeira com encosto, sem apoiar os braços, percorrer uma distância de três metros em velocidade habitual, dar a volta (180 graus, ao redor de um cone), retornar e sentar-se novamente na cadeira). A pessoa idosa deverá iniciar o teste afastando as costas da cadeira, no qual está sentada, com o objetivo de iniciar o movimento de se levantar (o cronômetro deve ser iniciado neste momento) e o final do teste deve ser quando a pessoa deve encostar suas costas na cadeira. A pessoa idosa poderá realizar uma tentativa inicial para se familiarizar com o teste, sendo necessário ressaltar que a velocidade de execução do teste é igual a habitual, ou seja, uma velocidade confortável e segura.
-Ambiente adequado: deverá ser realizado em ambiente iluminado e com amplitude mínima de 3 X 5 metros sem obstáculos nas laterais.
+Três tentativas são feitas e o maior tempo é considerado. 
 
-Materiais necessários: cadeira com apoio para os braços (altura do assento: 45cm; altura do braço: 68cm); metro ou trena; cone (ou outra cadeira) para demarcar a extremidade de 3 metros da execução do teste; cronômetro (celular ou tablet). A distância do cone (3 metros) deverá ser realizada, a partir da parte anterior do pé do examinado.
+Quanto maior for o tempo de permanência somente em um pé, melhor é o equilíbrio.
 
 
 <center>
