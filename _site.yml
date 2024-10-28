@@ -7,8 +7,6 @@ author:
 date: "`r Sys.Date()`"
 repository_url: https://ppgcr-unisuam.github.io/SAUDE/
 creative_commons: CC BY-NC
-includes:
-  - google-translate.html
 output_dir: docs
 navbar:
   left:
@@ -18,6 +16,10 @@ navbar:
     - text: "Timed Up and Go"
       icon: "fa-person-walking-arrow-right"
       href: [timed-up-and-go.html]
+  right:
+    - text: "Sobre"
+      icon: "fa-info-circle"
+      href: [info.html]
 
 output:
   html_document:

@@ -1,12 +1,5 @@
 ---
 title: "**Timed-Up and Go**"
-output:
-  html_document:
-    theme: flatly
-    highlight: textmate
-    css:
-      - style.css
-      - ./CSS/responsive.css
 ---
 
 <center>

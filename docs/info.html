@@ -9,9 +9,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="Alexandre Gomes Sancho, candidato DSc" />
+<meta name="author" content="Arthur de Sá Ferreira, DSc" />
 
+<meta name="date" content="2024-10-28" />
 
-<title>Timed-Up and Go</title>
+<title>SAUDE</title>
 
 <script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -278,87 +281,61 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><strong>Timed-Up and Go</strong></h1>
+<h1 class="title toc-ignore"><strong>SAUDE</strong></h1>
+<h3 class="subtitle">Sistema de Avaliação e Utilização de Dados sobre
+Envelhecimento</h3>
+<h4 class="author">Alexandre Gomes Sancho, candidato DSc</h4>
+<h4 class="author">Arthur de Sá Ferreira, DSc</h4>
+<h4 class="date">2024-10-28</h4>
 
 </div>
 
 
-<center>
+<div id="introdução" class="section level1">
+<h1>Introdução</h1>
+<p>A ciência cidadã, amplamente definida como a participação de não
+cientistas no processo de pesquisa para o avanço da ciência, está
+relacionada à saúde e representa um meio de envolver os idosos
+diretamente em pesquisas participativas contextualmente relevantes que
+podem melhorar suas percepções de empoderamento, saúde, autonomia e do
+ambiente coletivo. Relacionar as modificações que ocorrem durante o
+processo de envelhecimento associado a fatores ambientais, que podem
+impor barreiras ou incentivos, e sociais melhoram o entendimento de como
+estes podem afetar diretamente os idosos, com progressiva perda da
+atividade física, capacidade funcional, comprometimento da autonomia e
+independência, aumentando a suscetibilidade e vulnerabilidade a
+patologias e risco de óbito.</p>
 <p><br></p>
-<div id="clock" style="font-size: 48px;">
-00:00:00
+<div id="objetivo-geral" class="section level2">
+<h2>Objetivo geral</h2>
+<p>Avaliar e acompanhar os fatores que influenciam a funcionalidade,
+atividade física e saúde autopercebida de idosos, através de uma
+plataforma online baseada na abordagem ciência cidadã.</p>
+<p><br></p>
 </div>
-<p><br> <button id="startButton">Start</button>
-<button id="stopButton">Stop</button>
-<button id="resetButton">Reset</button> <button id="emailButton">Send
-Time via Email</button></p>
+<div id="objetivos-específicos" class="section level2">
+<h2>Objetivos específicos</h2>
+<ol style="list-style-type: decimal">
+<li><p>Mapear a literatura sobre as aplicações da ciência cidadã para a
+área de saúde, com foco em reabilitação;</p></li>
+<li><p>Criar uma plataforma online Sistema de Avaliação e Utilização de
+Dados sobre Envelhecimento (SAUDE) para registro, acompanhamento e
+análise agregada e estruturada de dados sobre funcionalidade e atividade
+física para planejamentos, ações e impactos voltados à promoção da saúde
+de idosos;</p></li>
+<li><p>Descrever o perfil funcional e de atividade física da população
+idosa;</p></li>
+<li><p>Identificar as principais barreiras e agentes facilitadores do
+engajamento de idosos para funcionalidade e atividade física;</p></li>
+<li><p>Identificar fatores sociodemográficos associados às barreiras e
+agentes facilitadores do engajamento de idosos para funcionalidade e
+atividade física;</p></li>
+<li><p>Propor um projeto de política pública direcionada à promoção da
+saúde e bem-estar da população idosa.</p></li>
+</ol>
 <p><br></p>
-</center>
-<!--script for sharing-->
-<p align="center">
-<a
-href="https://twitter.com/intent/tweet?url=https://ppgcr-unisuam.github.io/SAUDE/"><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a>
-<a
-href="https://www.facebook.com/sharer.php?u=https://ppgcr-unisuam.github.io/SAUDE/"><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg></a>
-<a
-href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://ppgcr-unisuam.github.io/SAUDE/"><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
-</p>
-<p><br></p>
-<script>
-let timer;
-let isRunning = false;
-let elapsedSeconds = 0; // To track elapsed time
-
-function formatTime(seconds) {
-    const hours = String(Math.floor(seconds / 3600)).padStart(2, '0');
-    const minutes = String(Math.floor((seconds % 3600) / 60)).padStart(2, '0');
-    const secs = String(seconds % 60).padStart(2, '0');
-    return `${hours}:${minutes}:${secs}`;
-}
-
-function updateClock() {
-    document.getElementById("clock").innerHTML = formatTime(elapsedSeconds);
-}
-
-// Function to start the clock
-function startClock() {
-    if (!isRunning) {
-        timer = setInterval(() => {
-            elapsedSeconds++;
-            updateClock();
-        }, 1000);
-        isRunning = true;
-    }
-}
-
-// Function to stop the clock
-function stopClock() {
-    clearInterval(timer);
-    isRunning = false;
-}
-
-// Function to reset the clock
-function resetClock() {
-    stopClock();
-    elapsedSeconds = 0; // Reset elapsed time
-    updateClock(); // Update display to 00:00:00
-}
-
-// Function to send the clock time via email
-function sendEmail() {
-    const timeString = formatTime(elapsedSeconds);
-    const email = "example@example.com"; // Replace with your email
-    const subject = "Clock Time";
-    const body = `${timeString}`;
-    window.location.href = `mailto:alexandresancho.fisio@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-}
-
-// Event listeners for buttons
-document.getElementById("startButton").onclick = startClock;
-document.getElementById("stopButton").onclick = stopClock;
-document.getElementById("resetButton").onclick = resetClock;
-document.getElementById("emailButton").onclick = sendEmail;
-</script>
+</div>
+</div>
 
 
 
