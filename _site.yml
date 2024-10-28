@@ -13,9 +13,6 @@ navbar:
     - text: ""
       icon: "fa-home"
       href: [index.html]
-    - text: "Timed Up and Go"
-      icon: "fa-person-walking-arrow-right"
-      href: [timed-up-and-go.html]
   right:
     - text: "Sobre"
       icon: "fa-info-circle"

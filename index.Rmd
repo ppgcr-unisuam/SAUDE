@@ -13,6 +13,8 @@ bsplus::bs_accordion(id = "testes") |>
   bsplus::bs_append(
     title =  htmltools::HTML("<span style='font-size: 30px; display: block; text-align: center; padding: 10px 30px 10px 30px;'>
                              Avalie seu risco de quedas
+                             <br>
+                             <i class=\"fa-solid fa-person-walking-arrow-right\"></i>
                              </span>"),
     content = htmltools::HTML(
       "<div style='font-size: 20px;'>
@@ -26,7 +28,9 @@ bsplus::bs_accordion(id = "testes") |>
     )|>
   bsplus::bs_append(
     title =  htmltools::HTML("<span style='font-size: 30px; display: block; text-align: center; padding: 10px 30px 10px 30px;'>
-                             Sentar e Levantar
+                             Sentar e levantar
+                             <br>
+                             <i class=\"fa-solid fa-chair\"></i>
                              </span>"),
     content = htmltools::HTML(
       "<div style='font-size: 20px;'>
@@ -41,6 +45,8 @@ bsplus::bs_accordion(id = "testes") |>
   bsplus::bs_append(
     title =  htmltools::HTML("<span style='font-size: 30px; display: block; text-align: center; padding: 10px 30px 10px 30px;'>
                              Apoio unipodal
+                             <br>
+                             <i class=\"fa-solid fa-person\"></i>
                              </span>"),
     content = htmltools::HTML(
       "<div style='font-size: 20px;'>
