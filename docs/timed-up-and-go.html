@@ -11,9 +11,9 @@
 
 
 
-<title>Timed-Up and Go</title>
+<title>Levantar e ir</title>
 
-<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
 <link rel="shortcut icon" href="favicon_io/android-chrome-192x192.png" sizes="192x192" type="image/png">
 <link rel="shortcut icon" href="favicon_io/android-chrome-512x512.png" sizes="512x512" type="image/png">
 <link rel="apple-touch-icon" href="favicon_io/apple-touch-icon.png" type="image/png">
@@ -263,6 +263,13 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
+  <a href="RCLE.html">
+    <span class="fa fa-clipboard-check"></span>
+     
+    RCLE
+  </a>
+</li>
+<li>
   <a href="info.html">
     <span class="fa fa-info-circle"></span>
      
@@ -278,53 +285,70 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><strong>Timed-Up and Go</strong></h1>
+<h1 class="title toc-ignore"><strong>Levantar e ir</strong></h1>
 
 </div>
 
 
-<p>Consiste no tempo que o indivíduo leva para levantar-se de uma
-cadeira, caminhar 3 metros, contornar um obstáculo (como um cone) e
-retornar à cadeira para sentar-se novamente.</p>
-<p>Instruções para o teste: O teste consiste em levantar-se de uma
-cadeira com encosto, sem apoiar os braços, percorrer uma distância de
-três metros em velocidade habitual, dar a volta (180 graus, ao redor de
-um cone), retornar e sentar-se novamente na cadeira). A pessoa idosa
-deverá iniciar o teste afastando as costas da cadeira, no qual está
-sentada, com o objetivo de iniciar o movimento de se levantar (o
-cronômetro deve ser iniciado neste momento) e o final do teste deve ser
-quando a pessoa deve encostar suas costas na cadeira. A pessoa idosa
-poderá realizar uma tentativa inicial para se familiarizar com o teste,
-sendo necessário ressaltar que a velocidade de execução do teste é igual
-a habitual, ou seja, uma velocidade confortável e segura. Ambiente
-adequado: deverá ser realizado em ambiente iluminado e com amplitude
-mínima de 3 X 5 metros sem obstáculos nas laterais.</p>
-<p>Materiais necessários: cadeira com apoio para os braços (altura do
-assento: 45cm; altura do braço: 68cm); metro ou trena; cone (ou outra
-cadeira) para demarcar a extremidade de 3 metros da execução do teste;
-cronômetro (celular ou tablet). A distância do cone (3 metros) deverá
-ser realizada, a partir da parte anterior do pé do examinado.</p>
+<div id="section" class="section level1 unnumbered unlisted tabset">
+<h1 class="unnumbered unlisted tabset"></h1>
+<div id="video" class="section level2">
+<h2>Video</h2>
+<center>
+<video src="videos/timed-up-and-go.mov" width="100%" controls>
+</video>
+</center>
+</div>
+<div id="materiais" class="section level2">
+<h2>Materiais</h2>
+<ul>
+<li><p>Cadeira com apoio para os braços (altura do assento: 45cm; altura
+do braço: 68cm)</p></li>
+<li><p>Metro ou trena</p></li>
+<li><p>Cone ou outra cadeira para demarcar a extremidade de 3 m da
+execução do teste. A distância de 3 m deverá ser medida a partir da
+parte anterior do pé do examinado.</p></li>
+</ul>
+</div>
+<div id="local" class="section level2">
+<h2>Local</h2>
+<ul>
+<li>Deverá ser realizado em ambiente iluminado e com amplitude mínima de
+3 X 5 metros sem obstáculos nas laterais.</li>
+</ul>
+</div>
+<div id="instruções" class="section level2">
+<h2>Instruções</h2>
+<ul>
+<li><p>O teste consiste em levantar-se de uma cadeira com encosto, sem
+apoiar os braços, percorrer uma distância de três metros em velocidade
+habitual, dar a volta (180 graus, ao redor de um cone), retornar e
+sentar-se novamente na cadeira).</p></li>
+<li><p>A pessoa idosa deverá iniciar o teste afastando as costas da
+cadeira, no qual está sentada, com o objetivo de iniciar o movimento de
+se levantar (o cronômetro deve ser iniciado neste momento) e o final do
+teste deve ser quando a pessoa deve encostar suas costas na
+cadeira.</p></li>
+<li><p>A pessoa idosa poderá realizar uma tentativa inicial para se
+familiarizar com o teste, sendo necessário ressaltar que a velocidade de
+execução do teste é igual a habitual, ou seja, uma velocidade
+confortável e segura.</p></li>
+</ul>
+</div>
+</div>
+<div id="section-1" class="section level1 unnumbered unlisted tabset">
+<h1 class="unnumbered unlisted tabset"></h1>
 <center>
 <p><br></p>
-<div id="clock" style="font-size: 48px;">
+<div id="clock" style="font-size: 52px;">
 00:00:00
 </div>
-<p><br> <button id="startButton">Start</button>
-<button id="stopButton">Stop</button>
-<button id="resetButton">Reset</button> <button id="emailButton">Send
-Time via Email</button></p>
+<p><br> <button id="startButton">Iniciar</button>
+<button id="stopButton">Parar</button>
+<button id="resetButton">Recomeçar</button>
+<button id="emailButton">Enviar resultados</button></p>
 <p><br></p>
 </center>
-<!--script for sharing-->
-<p align="center">
-<a
-href="https://twitter.com/intent/tweet?url=https://ppgcr-unisuam.github.io/SAUDE/"><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a>
-<a
-href="https://www.facebook.com/sharer.php?u=https://ppgcr-unisuam.github.io/SAUDE/"><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg></a>
-<a
-href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://ppgcr-unisuam.github.io/SAUDE/"><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
-</p>
-<p><br></p>
 <script>
 let timer;
 let isRunning = false;
@@ -380,6 +404,7 @@ document.getElementById("stopButton").onclick = stopClock;
 document.getElementById("resetButton").onclick = resetClock;
 document.getElementById("emailButton").onclick = sendEmail;
 </script>
+</div>
 
 
 

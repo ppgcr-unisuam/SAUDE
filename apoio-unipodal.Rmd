@@ -1,40 +1,45 @@
 ---
-title: "**Sentar e Levantar**"
+title: "**Apoio unipodal**"
 ---
 
-No teste é solicitado ao indivíduo permanecer com os braços ao lado do corpo. Inicia-se a contagem do tempo quando o indivíduo retira uma perna do solo e fica apoiado somente em um dos pés, sendo interrompido quando ele coloca o pé suspenso no chão ou chega ao tempo máximo de 30 segundos. 
+# {.unnumbered .unlisted .tabset}
 
-Três tentativas são feitas e o maior tempo é considerado. 
+## Video
 
-Quanto maior for o tempo de permanência somente em um pé, melhor é o equilíbrio.
+<center>
+<video src="videos/apoio-unipodal.mov" width="100%" controls></video>
+</center>
 
+## Materiais
+
+- 
+
+## Local
+
+-
+
+## Instruções
+
+- Três tentativas são feitas e o maior tempo é considerado. 
+
+- Quanto maior for o tempo de permanência somente em um pé, melhor é o equilíbrio.
+
+# {.unnumbered .unlisted .tabset}
 
 <center>
 
 <br>
 
-<div id="clock" style="font-size: 48px;">00:00:00</div>
+<div id="clock" style="font-size: 52px;">00:00:00</div>
 <br>
-<button id="startButton">Start</button>
-<button id="stopButton">Stop</button>
-<button id="resetButton">Reset</button>
-<button id="emailButton">Send Time via Email</button>
+<button id="startButton">Iniciar</button>
+<button id="stopButton">Parar</button>
+<button id="resetButton">Recomeçar</button>
+<button id="emailButton">Enviar resultados</button>
 
 <br>
 
 </center>
-
-<!--script for sharing-->
-<p align="center">
-```{r share, include = TRUE, echo = FALSE, warning = FALSE, message = FALSE, fig.align = 'center', out.width = "100%", results = "asis"}
-metadata <- c()
-metadata$repository_url <- yaml::read_yaml("_site.yml")$repository_url
-home <- metadata$repository_url
-source("R/social-media-sharing.R", local = knitr::knit_global())
-```
-</p>
-
-<br>
 
 
 <script>

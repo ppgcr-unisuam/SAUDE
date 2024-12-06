@@ -2,43 +2,52 @@
 title: "**Sentar e Levantar**"
 ---
 
-Orientações: a pessoa ou o avaliador deverá ser capaz de contar quantas vezes se levantou da cadeira (postural vertical) em 30 segundos.
-a) ambiente: seguro, livre de obstáculos e com supervisão adequada para prevenir quedas e lesões durante a execução do teste 
-b) uma cadeira padrão: com encosto reto e sem apoio de braço, rotineiramente utilizada no ambiente em que vive, com sua altura aproximada à altura do joelho e deve estar apoiada em um móvel ou parede, para garantir a segurança na execução do teste; 
-c) apoio do braço e encosto da cadeira: não será permitido toque ou propulsão do tronco com apoio do braço da cadeira e não poderá utilizar a encosto da cadeira para impulsionar o tronco para levantar-se;
-d) muletas ou bengalas: não será permitido o uso destes dispositivos durante o teste;
-e) posicionamento dos pés: o posicionamento dos pés deve ser natural e confortável, completamente apoiados no chão, à distância aproximada da largura dos ombros e um pouco atrás da linha dos joelhos; 
-f) utensílios: smartphone ou tablet com o aplicativo SAUDE aberto (SAUDE); 
-g) vestuário apropriado: o idoso deverá usar um calçado de salto baixo e roupa confortável durante a realização do teste; 
-h) ensaio: deverá ser feita pelo menos uma tentativa ou ensaio para familiarização e compreensão da execução do teste.
+# {.unnumbered .unlisted .tabset}
 
+## Video
+
+<center>
+<video src="videos/sentar-e-levantar.mov" width="100%" controls></video>
+</center>
+
+## Materiais
+
+- Utensílios: smartphone ou tablet com o aplicativo SAUDE aberto (SAUDE); 
+
+- Vestuário apropriado: o idoso deverá usar um calçado de salto baixo e roupa confortável durante a realização do teste; 
+
+## Local
+
+- Seguro, livre de obstáculos e com supervisão adequada para prevenir quedas e lesões durante a execução do teste.
+
+## Instruções
+
+- Ensaio: deverá ser feita pelo menos uma tentativa ou ensaio para familiarização e compreensão da execução do teste.
+
+- Uma cadeira padrão: com encosto reto e sem apoio de braço, rotineiramente utilizada no ambiente em que vive, com sua altura aproximada à altura do joelho e deve estar apoiada em um móvel ou parede, para garantir a segurança na execução do teste;
+
+- Apoio do braço e encosto da cadeira: não será permitido toque ou propulsão do tronco com apoio do braço da cadeira e não poderá utilizar a encosto da cadeira para impulsionar o tronco para levantar-se;
+
+- M=uletas ou bengalas: não será permitido o uso destes dispositivos durante o teste;
+
+- Posicionamento dos pés: o posicionamento dos pés deve ser natural e confortável, completamente apoiados no chão, à distância aproximada da largura dos ombros e um pouco atrás da linha dos joelhos; 
+
+# {.unnumbered .unlisted .tabset}
 
 <center>
 
 <br>
 
-<div id="clock" style="font-size: 48px;">00:00:00</div>
+<div id="clock" style="font-size: 52px;">00:00:00</div>
 <br>
-<button id="startButton">Start</button>
-<button id="stopButton">Stop</button>
-<button id="resetButton">Reset</button>
-<button id="emailButton">Send Time via Email</button>
+<button id="startButton">Iniciar</button>
+<button id="stopButton">Parar</button>
+<button id="resetButton">Recomeçar</button>
+<button id="emailButton">Enviar resultados</button>
 
 <br>
 
 </center>
-
-<!--script for sharing-->
-<p align="center">
-```{r share, include = TRUE, echo = FALSE, warning = FALSE, message = FALSE, fig.align = 'center', out.width = "100%", results = "asis"}
-metadata <- c()
-metadata$repository_url <- yaml::read_yaml("_site.yml")$repository_url
-home <- metadata$repository_url
-source("R/social-media-sharing.R", local = knitr::knit_global())
-```
-</p>
-
-<br>
 
 
 <script>

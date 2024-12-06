@@ -14,6 +14,9 @@ navbar:
       icon: "fa-home"
       href: [index.html]
   right:
+    - text: "RCLE"
+      icon: "fa-clipboard-check"
+      href: [RCLE.html]
     - text: "Sobre"
       icon: "fa-info-circle"
       href: [info.html]
