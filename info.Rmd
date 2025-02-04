@@ -17,22 +17,20 @@ A ciência cidadã, amplamente definida como a participação de não cientistas
 
 ## Objetivo geral
 
-Avaliar e acompanhar os fatores que influenciam a funcionalidade, atividade física e saúde autopercebida de idosos, através de uma plataforma online baseada na abordagem ciência cidadã.
+Avaliar a percepção e confiabilidade dos testes de força e funcionalidade timed up and go, teste sentar e levantar, teste de apoio unipodal em indivíduos idosos, através de uma plataforma online SAUDE baseada na abordagem ciência cidadã, correlacionando-os com os achados no laboratório.
 
 <br>
 
 ## Objetivos específicos
 
-1.	Mapear a literatura sobre as aplicações da ciência cidadã para a área de saúde, com foco em reabilitação; 
+1. Avaliar a percepção e a confiabilidade do tempo gasto para realizar os testes TUG e TSL pelo paciente idoso em sua residência, através da plataforma SAUDE e correlacionar com os achados reais laboratoriais.
 
-2.	Criar uma plataforma online Sistema de Avaliação e Utilização de Dados sobre Envelhecimento (SAUDE) para registro, acompanhamento e análise agregada e estruturada de dados sobre funcionalidade e atividade física para planejamentos, ações e impactos voltados à promoção da saúde de idosos;
+2. Analisar a capacidade de predição de quedas futuras em idosos, através dos testes TUG e apoio unipodal.
 
-3.	Descrever o perfil funcional e de atividade física da população idosa;
+3. Avaliar a mensuração do teste de apoio unipodal e correlacionar com os achados do TUG e TSL.
 
-4.	Identificar as principais barreiras e agentes facilitadores do engajamento de idosos para funcionalidade e atividade física;
+4. Criar uma plataforma online Sistema de Avaliação e Utilização de Dados sobre Envelhecimento (SAUDE) para registro, acompanhamento e análise agregada e estruturada de dados sobre funcionalidade e atividade física para planejamentos, ações e impactos voltados à promoção da saúde de idosos.
 
-5.	Identificar fatores sociodemográficos associados às barreiras e agentes facilitadores do engajamento de idosos para funcionalidade e atividade física;
-
-6.	Propor um projeto de política pública direcionada à promoção da saúde e bem-estar da população idosa.
+5. Descrever o perfil funcional (força muscular e risco de queda) da população idosa.
 
 <br>

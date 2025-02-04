@@ -30,6 +30,19 @@ title: "**Levantar e ir**"
 
 - A pessoa idosa poderá realizar uma tentativa inicial para se familiarizar com o teste, sendo necessário ressaltar que a velocidade de execução do teste é igual a habitual, ou seja, uma velocidade confortável e segura.
 
+## Interpretação
+
+O tempo gasto para realizar o teste gera uma classificação de risco, onde valores < 10 segundos demonstram risco baixo, entre 10 e 20 segundos risco médio e > 20 segundos risco elevado e baixo desempenho físico, onde a pessoa idosa pode ser considerada funcionalmente dependente. O risco de queda de pessoas idosas é aumentado quando o teste é feito com tempo maior que 12,47 segundos.
+
+**Fontes:**
+
+- Browne, W., & Nair, B. (Kichu) R. (2018). The Timed Up and Go test. In B. (Kichu) Nair & S. O’Connor (Eds.), Medical Journal of Australia (Vol. 210, Issue 1, p. 13). AMPCo. https://doi.org/10.5694/mja2.12045
+
+- Podsiadlo, D., & Richardson, S. (1991). The Timed “Up &amp; Go”: A Test of Basic Functional Mobility for Frail Elderly Persons. In Journal of the American Geriatrics Society (Vol. 39, Issue 2, pp. 142–148). Wiley. https://doi.org/10.1111/j.1532-5415.1991.tb01616.x
+
+- Alexandre, T. S., Meira, D. M., Rico, N. C., & Mizuta, S. K. (2012). Accuracy of Timed Up and Go Test for screening risk of falls among community-dwelling elderly. In Brazilian Journal of Physical Therapy (Vol. 16, Issue 5, pp. 381–388). FapUNIFESP (SciELO). https://doi.org/10.1590/s1413-35552012005000041
+
+
 # {.unnumbered .unlisted .tabset}
 
 <center>

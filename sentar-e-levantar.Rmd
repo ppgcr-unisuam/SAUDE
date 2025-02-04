@@ -32,6 +32,19 @@ title: "**Sentar e Levantar**"
 
 - Posicionamento dos pés: o posicionamento dos pés deve ser natural e confortável, completamente apoiados no chão, à distância aproximada da largura dos ombros e um pouco atrás da linha dos joelhos; 
 
+## interpretação
+
+Testes com “oito ou menos repetições em 30 segundos”, em pessoas ativas idosas vivendo na comunidade, apresenta risco de declínio funcional precoce.
+
+**Fontes:**
+
+- Rikli, R. E., & Jones, C. J. (2012). Development and Validation of Criterion-Referenced Clinically Relevant Fitness Standards for Maintaining Physical Independence in Later Years. In The Gerontologist (Vol. 53, Issue 2, pp. 255–267). Oxford University Press (OUP). https://doi.org/10.1093/geront/gns071
+
+- Bruun, I. H., Mogensen, C. B., Nørgaard, B., Schiøttz-Christensen, B., & Maribo, T. (2019). Validity and Responsiveness to Change of the 30-Second Chair-Stand Test in Older Adults Admitted to an Emergency Department. In Journal of Geriatric Physical Therapy (Vol. 42, Issue 4, pp. 265–274). Ovid Technologies (Wolters Kluwer Health). https://doi.org/10.1519/jpt.0000000000000166
+
+- Lord, S. R., Murray, S. M., Chapman, K., Munro, B., & Tiedemann, A. (2002). Sit-to-Stand Performance Depends on Sensation, Speed, Balance, and Psychological Status in Addition to Strength in Older People. In The Journals of Gerontology Series A: Biological Sciences and Medical Sciences (Vol. 57, Issue 8, pp. M539–M543). Oxford University Press (OUP). https://doi.org/10.1093/gerona/57.8.m539
+
+
 # {.unnumbered .unlisted .tabset}
 
 <center>
