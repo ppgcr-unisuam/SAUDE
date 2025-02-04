@@ -18,11 +18,12 @@ bsplus::bs_accordion(id = "testes") |>
     title =  htmltools::HTML("<span style='font-size: 30px; display: block; text-align: center; padding: 10px 30px 10px 30px;'>
                              Levantar e ir
                              <br>
-                             <i class=\"fa-solid fa-person-falling\"></i>
+                             <i class=\"fa-solid fa-chair\"></i>
+                             <i class=\"fa-solid fa-person-walking-arrow-loop-left\"></i>
                              </span>"),
     content = htmltools::HTML(
       "<div style='font-size: 20px;'>
-          Consiste no tempo que o indivíduo leva para levantar-se de uma cadeira, caminhar 3 metros, contornar um obstáculo (como um cone) e retornar à cadeira para sentar-se novamente.
+          Este teste avalia a sua mobilidade, equilíbrio e agilidade, medindo o tempo necessário para você completar um percurso que envolve caminhar, trocar de direção e realizar mudanças posturais. Esse teste fornece informações sobre a sua capacidade funcional e risco de quedas.
           <br><br>
           Teste agora! <a href='timed-up-and-go.html'>Timed-Up and Go</a>
       </div>"
@@ -33,10 +34,12 @@ bsplus::bs_accordion(id = "testes") |>
                              Sentar e levantar
                              <br>
                              <i class=\"fa-solid fa-chair\"></i>
+                             <i class=\"fa-solid fa-person\"></i>
+                             <i class=\"fa-solid fa-up-down\"></i>
                              </span>"),
     content = htmltools::HTML(
       "<div style='font-size: 20px;'>
-          A pessoa ou o avaliador deverá ser capaz de contar quantas vezes se levantou da cadeira (postural vertical) em 30 segundos.
+          Neste teste, são contadas quantas vezes você consegue se levantar e sentar de uma cadeira em 30 segundos. Esse exame avalia a sua força muscular, equilíbrio e agilidade.
           <br><br>
           Teste agora! <a href='sentar-e-levantar.html'>Sentar e levantar</a>
       </div>"
@@ -50,7 +53,7 @@ bsplus::bs_accordion(id = "testes") |>
                              </span>"),
     content = htmltools::HTML(
       "<div style='font-size: 20px;'>
-          No teste é solicitado ao indivíduo permanecer com os braços ao lado do corpo. Inicia-se a contagem do tempo quando o indivíduo retira uma perna do solo e fica apoiado somente em um dos pés, sendo interrompido quando ele coloca o pé suspenso no chão ou chega ao tempo máximo de 30 segundos. 
+          Este teste avalia a sua capacidade de manter o equilíbrio enquanto está em pé sobre uma perna. Esse exame é fundamental para a avaliação do seu equilíbrio estático.
           <br><br>
           Teste agora! <a href='apoio-unipodal.html'>Apoio unipodal</a>
       </div>"
