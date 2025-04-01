@@ -104,8 +104,8 @@ function resetClock() {
 // Function to send the clock time via email
 function sendEmail() {
     const timeString = formatTime(elapsedSeconds);
-    const email = "example@example.com"; // Replace with your email
-    const subject = "Clock Time";
+    const email = "alexandresancho.fisio@gmail.com"; // Replace with your email
+    const subject = "Timed-Up-and-Go";
     const body = `${timeString}`;
     window.location.href = `mailto:alexandresancho.fisio@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }

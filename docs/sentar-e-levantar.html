@@ -328,8 +328,8 @@ parede, para garantir a segurança na execução do teste;</p></li>
 propulsão do tronco com apoio do braço da cadeira e não poderá utilizar
 a encosto da cadeira para impulsionar o tronco para
 levantar-se;</p></li>
-<li><p>M=uletas ou bengalas: não será permitido o uso destes
-dispositivos durante o teste;</p></li>
+<li><p>Muletas ou bengalas: não será permitido o uso destes dispositivos
+durante o teste;</p></li>
 <li><p>Posicionamento dos pés: o posicionamento dos pés deve ser natural
 e confortável, completamente apoiados no chão, à distância aproximada da
 largura dos ombros e um pouco atrás da linha dos joelhos;</p></li>
@@ -370,62 +370,69 @@ class="uri">https://doi.org/10.1093/gerona/57.8.m539</a></p></li>
 <div id="section-1" class="section level1 unnumbered unlisted tabset">
 <h1 class="unnumbered unlisted tabset"></h1>
 <center>
-<p><br></p>
+<br>
 <div id="clock" style="font-size: 52px;">
-00:00:00
+00:30
 </div>
-<p><br> <button id="startButton">Iniciar</button>
+<br>
+<input style="font-size:52px; width:30%; border-color:black; text-align:center;" type="number" id="numberInput" name="numberInput" min="0" step="1" required>
+<br> <br> <button id="startButton">Iniciar</button>
 <button id="stopButton">Parar</button>
 <button id="resetButton">Recomeçar</button>
-<button id="emailButton">Enviar resultados</button></p>
-<p><br></p>
+<button id="emailButton">Enviar resultados</button> <br>
 </center>
 <script>
 let timer;
 let isRunning = false;
-let elapsedSeconds = 0; // To track elapsed time
+let elapsedSeconds = 30; // Start from 30 seconds
+let alarmSound = new Audio('alarm.mp3'); // Load the alarm sound
 
 function formatTime(seconds) {
-    const hours = String(Math.floor(seconds / 3600)).padStart(2, '0');
-    const minutes = String(Math.floor((seconds % 3600) / 60)).padStart(2, '0');
+    const minutes = String(Math.floor(seconds / 60)).padStart(2, '0');
     const secs = String(seconds % 60).padStart(2, '0');
-    return `${hours}:${minutes}:${secs}`;
+    return `${minutes}:${secs}`;
 }
 
 function updateClock() {
     document.getElementById("clock").innerHTML = formatTime(elapsedSeconds);
 }
 
-// Function to start the clock
+// Function to start the countdown
 function startClock() {
-    if (!isRunning) {
+    if (!isRunning && elapsedSeconds > 0) {
         timer = setInterval(() => {
-            elapsedSeconds++;
-            updateClock();
+            if (elapsedSeconds > 0) {
+                elapsedSeconds--;
+                updateClock();
+            } else {
+                clearInterval(timer); // Stop the countdown when it reaches 0
+                alarmSound.play(); // Play the alarm sound when the timer hits zero
+                isRunning = false;
+            }
         }, 1000);
         isRunning = true;
     }
 }
 
-// Function to stop the clock
+// Function to stop the countdown
 function stopClock() {
     clearInterval(timer);
     isRunning = false;
 }
 
-// Function to reset the clock
+// Function to reset the countdown
 function resetClock() {
     stopClock();
-    elapsedSeconds = 0; // Reset elapsed time
-    updateClock(); // Update display to 00:00:00
+    elapsedSeconds = 30; // Reset to 30 seconds
+    updateClock(); // Update display to 00:30
 }
 
 // Function to send the clock time via email
 function sendEmail() {
-    const timeString = formatTime(elapsedSeconds);
-    const email = "example@example.com"; // Replace with your email
-    const subject = "Clock Time";
-    const body = `${timeString}`;
+    const numberInput = document.getElementById("numberInput").value;
+    const email = "alexandresancho.fisio@gmail.com"; // Replace with your email
+    const subject = "Sentar-e-Levantar";
+    const body = `${numberInput}`;
     window.location.href = `mailto:alexandresancho.fisio@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
 

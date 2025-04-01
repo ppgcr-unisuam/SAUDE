@@ -55,6 +55,7 @@ O tempo em apoio unipodal entre 21 e 30 segundos indica sem alteração do equil
 let timer;
 let isRunning = false;
 let elapsedSeconds = 0; // To track elapsed time
+let alarmSound = new Audio('alarm.mp3'); // Load the alarm sound
 
 function formatTime(seconds) {
     const hours = String(Math.floor(seconds / 3600)).padStart(2, '0');
@@ -67,12 +68,18 @@ function updateClock() {
     document.getElementById("clock").innerHTML = formatTime(elapsedSeconds);
 }
 
-// Function to start the clock
+// Function to start the countdown
 function startClock() {
-    if (!isRunning) {
+    if (!isRunning && elapsedSeconds < 30) {
         timer = setInterval(() => {
-            elapsedSeconds++;
-            updateClock();
+            if (elapsedSeconds < 30) {
+                elapsedSeconds++;
+                updateClock();
+            } else {
+                clearInterval(timer); // Stop the countdown when it reaches 0
+                alarmSound.play(); // Play the alarm sound when the timer hits zero
+                isRunning = false;
+            }
         }, 1000);
         isRunning = true;
     }
@@ -94,8 +101,8 @@ function resetClock() {
 // Function to send the clock time via email
 function sendEmail() {
     const timeString = formatTime(elapsedSeconds);
-    const email = "example@example.com"; // Replace with your email
-    const subject = "Clock Time";
+    const email = "alexandresancho.fisio@gmail.com"; // Replace with your email
+    const subject = "Apoio Unipodal";
     const body = `${timeString}`;
     window.location.href = `mailto:alexandresancho.fisio@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
