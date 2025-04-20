@@ -4,11 +4,16 @@ title: "**Sentar e Levantar**"
 
 # {.unnumbered .unlisted .tabset}
 
-## Video
+## **1**
+
+<br>
+
+### Video
 
 <center>
 <video src="videos/sentar-e-levantar.mov" width="100%" controls></video>
 </center>
+
 
 ## Materiais
 

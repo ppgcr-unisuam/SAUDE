@@ -4,58 +4,110 @@ title: "**Apoio unipodal**"
 
 # {.unnumbered .unlisted .tabset}
 
-## Video
+## **1**
+
+<br>
+
+### Video
+
+<br>
 
 <center>
 <video src="videos/apoio-unipodal.mov" width="100%" controls></video>
 </center>
 
-## Materiais
+## **2**
 
-- 
+<br>
 
-## Local
+### Local
 
--
+<br>
 
-## Instruções
+<div style="font-size: 1.2em;">
+  <ul>
+    <li>Escolha um ambiente bem iluminado, com espaço livre de, no mínimo, 3 por 5 metros.</li>
+    <br>
+    <li>Certifique-se de que não haja obstáculos nas laterais, para garantir segurança durante a realização do teste.</li>
+    <br>
+  </ul>
+</div>
 
-- Três tentativas são feitas e o maior tempo é considerado. 
+## **3**
 
-- Quanto maior for o tempo de permanência somente em um pé, melhor é o equilíbrio.
+<br>
 
-## Interpretação
+### Instruções
 
-O tempo em apoio unipodal entre 21 e 30 segundos indica sem alteração do equilíbrio, mas valores abaixo demonstram dificuldades no equilíbrio.
+<br>
 
-**Fontes:**
+<div style="font-size: 1.2em;">
+  <ul>
+    <li>O teste consiste em levantar-se e permanecer de pé, sem usar os braços para apoiar-se.</li>
+    <br>
+    <li>Você deve começar o teste levantando um dos pés e permanecendo com apenas um pé de apoio. É nesse momento que o cronômetro deve ser iniciado. O teste termina quando o outro pé enconstar no chão novamente.</li>
+    <br>
+    <li>Antes da avaliação, você pode fazer uma tentativa inicial para se familiarizar com o teste. Lembre-se de que a duração da execução deve ser aquela que você considera confortável e segura, ou seja, sua duração habitual.</li>
+    <br>
+    <li>Você pode realizar três tentativas, o maior tempo será considerado.</li>
+  </ul>
+</div>
 
-- Moraes, A. G., David, A. C. de, Castro, O. G. de, Marques, B. L., Carolino, M. da S., & Maia, E. de M. (2014). Comparação do equilíbrio postural unipodal entre crianças e adultos. In Revista Brasileira de Educação Física e Esporte (Vol. 28, Issue 4, pp. 571–577). FapUNIFESP (SciELO). https://doi.org/10.1590/1807-55092014000400571
+## **4**
 
+<br>
 
-# {.unnumbered .unlisted .tabset}
+### Cronômetro
+
+<br>
 
 <center>
-
+<div id="clock" style="font-size:64px;">00:00:00</div>
 <br>
-
-<div id="clock" style="font-size: 52px;">00:00:00</div>
 <br>
-<button id="startButton">Iniciar</button>
-<button id="stopButton">Parar</button>
-<button id="resetButton">Recomeçar</button>
-<button id="emailButton">Enviar resultados</button>
-
+<button id="startButton" style="font-size:32px;width:100%;">Iniciar</button>
 <br>
-
+<br>
+<button id="stopButton" style="font-size:32px;width:100%;">Parar</button>
+<br>
+<br>
+<button id="resetButton" style="font-size:32px;width:100%;">Recomeçar</button>
+<br>
+<br>
+<button id="emailButton" style="font-size:32px;width:100%;"><strong>Enviar resultado</strong></button>
 </center>
 
+## **6**
 
-<script>
+<br>
+
+### Interpretação
+
+<br>
+
+<div style="font-size: 1.2em;">
+  <ul>
+    <li>O tempo em apoio unipodal entre 21 e 30 segundos indica sem alteração do equilíbrio.</li>
+    <br>
+    <li>Tempos menores que 21 segundos sugerem dificuldades no equilíbrio.</li>
+  </ul>
+</div>
+
+## **7**
+
+<br>
+
+### Leitura recomendada
+
+<br>
+
+-- Moraes, A. G., David, A. C. de, Castro, O. G. de, Marques, B. L., Carolino, M. da S., & Maia, E. de M. (2014). Comparação do equilíbrio postural unipodal entre crianças e adultos. In Revista Brasileira de Educação Física e Esporte (Vol. 28, Issue 4, pp. 571–577). FapUNIFESP (SciELO). https://doi.org/10.1590/1807-55092014000400571
+
+
+```{js, echo=FALSE}
 let timer;
 let isRunning = false;
 let elapsedSeconds = 0; // To track elapsed time
-let alarmSound = new Audio('alarm.mp3'); // Load the alarm sound
 
 function formatTime(seconds) {
     const hours = String(Math.floor(seconds / 3600)).padStart(2, '0');
@@ -68,18 +120,12 @@ function updateClock() {
     document.getElementById("clock").innerHTML = formatTime(elapsedSeconds);
 }
 
-// Function to start the countdown
+// Function to start the clock
 function startClock() {
-    if (!isRunning && elapsedSeconds < 30) {
+    if (!isRunning) {
         timer = setInterval(() => {
-            if (elapsedSeconds < 30) {
-                elapsedSeconds++;
-                updateClock();
-            } else {
-                clearInterval(timer); // Stop the countdown when it reaches 0
-                alarmSound.play(); // Play the alarm sound when the timer hits zero
-                isRunning = false;
-            }
+            elapsedSeconds++;
+            updateClock();
         }, 1000);
         isRunning = true;
     }
@@ -98,18 +144,34 @@ function resetClock() {
     updateClock(); // Update display to 00:00:00
 }
 
-// Function to send the clock time via email
+// Função para obter geolocalização e enviar por e-mail
 function sendEmail() {
     const timeString = formatTime(elapsedSeconds);
-    const email = "alexandresancho.fisio@gmail.com"; // Replace with your email
-    const subject = "Apoio Unipodal";
-    const body = `${timeString}`;
-    window.location.href = `mailto:alexandresancho.fisio@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const email = "ciencia.cidada.saude@gmail.com";
+    const subject = "Apoio-Unipodal";
+
+    // Tenta obter localização
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function(position) {
+            const lat = position.coords.latitude.toFixed(6);
+            const lon = position.coords.longitude.toFixed(6);
+            const body = `Tempo do teste: ${timeString}%0D%0ALatitude: ${lat}%0D%0ALongitude: ${lon}`;
+            window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${body}`;
+        }, function(error) {
+            // Se não conseguir obter localização
+            const body = `Tempo do teste: ${timeString}%0D%0ALocalização não disponível.`;
+            window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${body}`;
+        });
+    } else {
+        // Caso o navegador não suporte geolocalização
+        const body = `Tempo do teste: ${timeString}%0D%0ALocalização não suportada neste dispositivo.`;
+        window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${body}`;
+    }
 }
 
-// Event listeners for buttons
+// Event listeners para os botões
 document.getElementById("startButton").onclick = startClock;
 document.getElementById("stopButton").onclick = stopClock;
 document.getElementById("resetButton").onclick = resetClock;
 document.getElementById("emailButton").onclick = sendEmail;
-</script>
+```

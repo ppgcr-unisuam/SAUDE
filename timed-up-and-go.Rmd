@@ -4,64 +4,134 @@ title: "**Levantar e ir**"
 
 # {.unnumbered .unlisted .tabset}
 
-## Video
+## **1**
+
+<br>
+
+### Video
+
+<br>
 
 <center>
 <video src="videos/timed-up-and-go.mov" width="100%" controls></video>
 </center>
 
-## Materiais
+## **2**
 
-- Cadeira com apoio para os braços (altura do assento: 45cm; altura do braço: 68cm)
+<br>
 
-- Metro ou trena
+### Materiais
 
-- Cone ou outra cadeira para demarcar a extremidade de 3 m da execução do teste. A distância de 3 m deverá ser medida a partir da parte anterior do pé do examinado.
+<br>
 
-## Local
+<div style="font-size: 1.2em;">
+  <ul>
+    <li>Você vai precisar de uma cadeira com apoio para os braços. A altura do assento deve ser de aproximadamente 45 cm, e a altura dos braços, cerca de 68 cm.</li>
+    <br>
+    <li>Tenha à mão um metro ou uma trena para realizar a medição da distância.</li>
+    <br>
+    <li>Utilize um cone ou outra cadeira para demarcar o ponto final da distância de 3 metros. Essa distância deve ser medida a partir da parte da frente do seu pé (ou do pé da pessoa que for realizar o teste).</li>
+  </ul>
+</div>
 
-- Deverá ser realizado em ambiente iluminado e com amplitude mínima de 3 X 5 metros sem obstáculos nas laterais.
+## **3**
 
-## Instruções
+<br>
 
-- O teste consiste em levantar-se de uma cadeira com encosto, sem apoiar os braços, percorrer uma distância de três metros em velocidade habitual, dar a volta (180 graus, ao redor de um cone), retornar e sentar-se novamente na cadeira).
+### Local
 
-- A pessoa idosa deverá iniciar o teste afastando as costas da cadeira, no qual está sentada, com o objetivo de iniciar o movimento de se levantar (o cronômetro deve ser iniciado neste momento) e o final do teste deve ser quando a pessoa deve encostar suas costas na cadeira.
+<br>
 
-- A pessoa idosa poderá realizar uma tentativa inicial para se familiarizar com o teste, sendo necessário ressaltar que a velocidade de execução do teste é igual a habitual, ou seja, uma velocidade confortável e segura.
+<div style="font-size: 1.2em;">
+  <ul>
+    <li>Escolha um ambiente bem iluminado, com espaço livre de, no mínimo, 3 por 5 metros.</li>
+    <br>
+    <li>Certifique-se de que não haja obstáculos nas laterais, para garantir segurança durante a realização do teste.</li>
+    <br>
+  </ul>
+</div>
 
-## Interpretação
+## **4**
 
-O tempo gasto para realizar o teste gera uma classificação de risco, onde valores < 10 segundos demonstram risco baixo, entre 10 e 20 segundos risco médio e > 20 segundos risco elevado e baixo desempenho físico, onde a pessoa idosa pode ser considerada funcionalmente dependente. O risco de queda de pessoas idosas é aumentado quando o teste é feito com tempo maior que 12,47 segundos.
+<br>
 
-**Fontes:**
+### Instruções
 
-- Browne, W., & Nair, B. (Kichu) R. (2018). The Timed Up and Go test. In B. (Kichu) Nair & S. O’Connor (Eds.), Medical Journal of Australia (Vol. 210, Issue 1, p. 13). AMPCo. https://doi.org/10.5694/mja2.12045
+<br>
 
-- Podsiadlo, D., & Richardson, S. (1991). The Timed “Up &amp; Go”: A Test of Basic Functional Mobility for Frail Elderly Persons. In Journal of the American Geriatrics Society (Vol. 39, Issue 2, pp. 142–148). Wiley. https://doi.org/10.1111/j.1532-5415.1991.tb01616.x
+<div style="font-size: 1.2em;">
+  <ul>
+    <li>O teste consiste em levantar-se de uma cadeira com encosto, sem usar os braços para apoiar-se, caminhar três metros em seu ritmo habitual, dar a volta (180 graus ao redor de um cone) e retornar para sentar-se novamente na cadeira.</li>
+    <br>
+    <li>Você deve começar o teste afastando as costas do encosto da cadeira, preparando-se para levantar. É nesse momento que o cronômetro deve ser iniciado. O teste termina quando suas costas encostarem novamente no encosto da cadeira.</li>
+    <br>
+    <li>Antes da avaliação, você pode fazer uma tentativa inicial para se familiarizar com o teste. Lembre-se de que a velocidade de execução deve ser aquela que você considera confortável e segura, ou seja, a sua velocidade habitual.</li>
+  </ul>
 
-- Alexandre, T. S., Meira, D. M., Rico, N. C., & Mizuta, S. K. (2012). Accuracy of Timed Up and Go Test for screening risk of falls among community-dwelling elderly. In Brazilian Journal of Physical Therapy (Vol. 16, Issue 5, pp. 381–388). FapUNIFESP (SciELO). https://doi.org/10.1590/s1413-35552012005000041
+## **5**
 
+<br>
 
-# {.unnumbered .unlisted .tabset}
+### Cronômetro
+
+<br>
 
 <center>
-
+<div id="clock" style="font-size:64px;">00:00:00</div>
 <br>
-
-<div id="clock" style="font-size: 52px;">00:00:00</div>
 <br>
-<button id="startButton">Iniciar</button>
-<button id="stopButton">Parar</button>
-<button id="resetButton">Recomeçar</button>
-<button id="emailButton">Enviar resultados</button>
-
+<button id="startButton" style="font-size:32px;width:100%;">Iniciar</button>
 <br>
-
+<br>
+<button id="stopButton" style="font-size:32px;width:100%;">Parar</button>
+<br>
+<br>
+<button id="resetButton" style="font-size:32px;width:100%;">Recomeçar</button>
+<br>
+<br>
+<button id="emailButton" style="font-size:32px;width:100%;"><strong>Enviar resultado</strong></button>
 </center>
 
+## **6**
 
-<script>
+<br>
+
+### Interpretação
+
+<br>
+
+<div style="font-size: 1.2em;">
+  <ul>
+    <li>O teste é considerado normal quando o tempo de execução é inferior a 10 segundos.</li>
+    <br>
+    <li>O teste é considerado limítrofe quando o tempo de execução está entre 10 e 20 segundos.</li>
+    <br>
+    <li>O teste é considerado anormal quando o tempo de execução é superior a 20 segundos.</li>
+    <br>
+    <br>
+  </ul>
+</div>
+
+## **7**
+
+<br>
+
+### Leitura recomendada
+
+<br>
+
+-- Podsiadlo, D., &amp; Richardson, S. (1991). The Timed “Up &amp; Go”: A Test of Basic Functional Mobility for Frail Elderly Persons. In Journal of the American Geriatrics Society (Vol. 39, Issue 2, pp. 142–148). Wiley. https://doi.org/10.1111/j.1532-5415.1991.tb01616.x</li>
+
+<br>
+
+-- Alexandre, T. S., Meira, D. M., Rico, N. C., &amp; Mizuta, S. K. (2012). Accuracy of Timed Up and Go Test for screening risk of falls among community-dwelling elderly. In Brazilian Journal of Physical Therapy (Vol. 16, Issue 5, pp. 381–388). FapUNIFESP (SciELO). https://doi.org/10.1590/s1413-35552012005000041</li>
+
+<br>
+
+-- Browne, W., &amp; Nair, B. (Kichu) R. (2018). The Timed Up and Go test. In B. (Kichu) Nair &amp; S. O’Connor (Eds.), Medical Journal of Australia (Vol. 210, Issue 1, p. 13). AMPCo. https://doi.org/10.5694/mja2.12045</li>
+
+
+```{js, echo=FALSE}
 let timer;
 let isRunning = false;
 let elapsedSeconds = 0; // To track elapsed time
@@ -101,18 +171,34 @@ function resetClock() {
     updateClock(); // Update display to 00:00:00
 }
 
-// Function to send the clock time via email
+// Função para obter geolocalização e enviar por e-mail
 function sendEmail() {
     const timeString = formatTime(elapsedSeconds);
-    const email = "alexandresancho.fisio@gmail.com"; // Replace with your email
+    const email = "ciencia.cidada.saude@gmail.com";
     const subject = "Timed-Up-and-Go";
-    const body = `${timeString}`;
-    window.location.href = `mailto:alexandresancho.fisio@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    // Tenta obter localização
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function(position) {
+            const lat = position.coords.latitude.toFixed(6);
+            const lon = position.coords.longitude.toFixed(6);
+            const body = `Tempo do teste: ${timeString}%0D%0ALatitude: ${lat}%0D%0ALongitude: ${lon}`;
+            window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${body}`;
+        }, function(error) {
+            // Se não conseguir obter localização
+            const body = `Tempo do teste: ${timeString}%0D%0ALocalização não disponível.`;
+            window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${body}`;
+        });
+    } else {
+        // Caso o navegador não suporte geolocalização
+        const body = `Tempo do teste: ${timeString}%0D%0ALocalização não suportada neste dispositivo.`;
+        window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${body}`;
+    }
 }
 
-// Event listeners for buttons
+// Event listeners para os botões
 document.getElementById("startButton").onclick = startClock;
 document.getElementById("stopButton").onclick = stopClock;
 document.getElementById("resetButton").onclick = resetClock;
 document.getElementById("emailButton").onclick = sendEmail;
-</script>
+```
