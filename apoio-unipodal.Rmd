@@ -61,20 +61,27 @@ title: "**Apoio unipodal**"
 
 <br>
 
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 <center>
-<div id="clock" style="font-size:64px;">00:00:00</div>
-<br>
-<br>
-<button id="startButton" style="font-size:32px;width:100%;">Iniciar</button>
-<br>
-<br>
-<button id="stopButton" style="font-size:32px;width:100%;">Parar</button>
-<br>
-<br>
-<button id="resetButton" style="font-size:32px;width:100%;">Recomeçar</button>
-<br>
-<br>
-<button id="emailButton" style="font-size:32px;width:100%;"><strong>Enviar resultado</strong></button>
+  <div id="clock" style="font-size:64px;">00:00:00</div>
+  <br><br>
+  <button id="startButton" style="font-size:32px;width:100%;">
+    <i class="fas fa-play"></i> Iniciar
+  </button>
+  <br><br>
+  <button id="stopButton" style="font-size:32px;width:100%;">
+    <i class="fas fa-stop"></i> Parar
+  </button>
+  <br><br>
+  <button id="resetButton" style="font-size:32px;width:100%;">
+    <i class="fas fa-rotate-left"></i> Recomeçar
+  </button>
+  <br><br>
+  <button id="emailButton" style="font-size:32px;width:100%;">
+    <i class="fas fa-envelope"></i> <strong>Compartilhar</strong>
+  </button>
 </center>
 
 ## **6**
