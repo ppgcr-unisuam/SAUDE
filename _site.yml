@@ -31,6 +31,7 @@ output:
       - style.css
       - ./CSS/narrow-margins.css
       - ./CSS/responsive.css
+      - ./CSS/custom-tabset.css
     toc: false
     sharing:
       facebook: yes

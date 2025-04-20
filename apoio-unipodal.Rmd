@@ -2,7 +2,7 @@
 title: "**Apoio unipodal**"
 ---
 
-# {.unnumbered .unlisted .tabset}
+# {.unnumbered .unlisted .tabset .tabset-pills .tabset-fade}
 
 ## **1**
 

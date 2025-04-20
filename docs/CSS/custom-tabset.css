@@ -1,0 +1,5 @@
+ul.nav-pills{
+  display: flex !important;
+  justify-content: center !important;
+  font-size: 1.2em !important;
+}
