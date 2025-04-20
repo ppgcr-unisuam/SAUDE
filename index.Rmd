@@ -13,7 +13,7 @@ subtitle: "**S**istema de **A**valiação e **U**tilização de **D**ados sobre 
 
 ```{r accordeon, echo = FALSE}
 bsplus::bs_accordion(id = "testes") |>
-  bsplus::bs_set_opts(panel_type = "primary", use_heading_link = TRUE) |>
+  bsplus::bs_set_opts(panel_type = "primary", use_heading_link = TRUE, open = FALSE) |>
   bsplus::bs_append(
     title =  htmltools::HTML("<span style='font-size: 30px; display: block; text-align: center; padding: 10px 30px 10px 30px;'>
                              Levantar e ir
@@ -27,8 +27,8 @@ bsplus::bs_accordion(id = "testes") |>
           <br><br>
           <center><a style='border: 2px solid #000; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;' href='timed-up-and-go.html'>TESTE AGORA!</a></center>
       </div>"
-      )
-    )|>
+    )
+  ) |>
   bsplus::bs_append(
     title =  htmltools::HTML("<span style='font-size: 30px; display: block; text-align: center; padding: 10px 30px 10px 30px;'>
                              Sentar e levantar
@@ -43,8 +43,8 @@ bsplus::bs_accordion(id = "testes") |>
           <br><br>
           <center><a style='border: 2px solid #000; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;' href='sentar-e-levantar.html'>TESTE AGORA!</a></center>
       </div>"
-      )
-    )|>
+    )
+  ) |>
   bsplus::bs_append(
     title =  htmltools::HTML("<span style='font-size: 30px; display: block; text-align: center; padding: 10px 30px 10px 30px;'>
                              Apoio unipodal
@@ -57,6 +57,17 @@ bsplus::bs_accordion(id = "testes") |>
           <br><br>
           <center><a style='border: 2px solid #000; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;' href='apoio-unipodal.html'>TESTE AGORA!</a></center>
       </div>"
-      )
     )
+  )
+```
+
+```{r, echo=FALSE, results='asis'}
+htmltools::tags$script(htmltools::HTML("
+  document.addEventListener('DOMContentLoaded', function() {
+    // Close all panels (remove Bootstrap's 'show' class)
+    document.querySelectorAll('.collapse.in').forEach(function(el) {
+      el.classList.remove('in');
+    });
+  });
+"))
 ```

@@ -352,6 +352,14 @@ $(document).ready(function () {
 </div>
 </div>
 </div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Close all panels (remove Bootstrap's 'show' class)
+    document.querySelectorAll('.collapse.in').forEach(function(el) {
+      el.classList.remove('in');
+    });
+  });
+</script>
 
 
 

@@ -10,63 +10,139 @@ title: "**Sentar e Levantar**"
 
 ### Video
 
+<br>
+
 <center>
 <video src="videos/sentar-e-levantar.mov" width="100%" controls></video>
 </center>
 
+## **2**
 
-## Materiais
+<br>
 
-- Utensílios: smartphone ou tablet com o aplicativo SAUDE aberto (SAUDE); 
+### Materiais
 
-- Vestuário apropriado: o idoso deverá usar um calçado de salto baixo e roupa confortável durante a realização do teste; 
+<br>
 
-## Local
+<div style="font-size: 1.2em;">
+  <ul>
+    <li>Use um calçado de salto baixo para garantir estabilidade e segurança durante o teste.</li>
+    <br>
+    <li>Vista roupas confortáveis que permitam liberdade de movimento.</li>
+  </ul>
+</div>
 
-- Seguro, livre de obstáculos e com supervisão adequada para prevenir quedas e lesões durante a execução do teste.
+## **3**
 
-## Instruções
+<br>
 
-- Ensaio: deverá ser feita pelo menos uma tentativa ou ensaio para familiarização e compreensão da execução do teste.
+### Local
 
-- Uma cadeira padrão: com encosto reto e sem apoio de braço, rotineiramente utilizada no ambiente em que vive, com sua altura aproximada à altura do joelho e deve estar apoiada em um móvel ou parede, para garantir a segurança na execução do teste;
+<br>
 
-- Apoio do braço e encosto da cadeira: não será permitido toque ou propulsão do tronco com apoio do braço da cadeira e não poderá utilizar a encosto da cadeira para impulsionar o tronco para levantar-se;
-
-- Muletas ou bengalas: não será permitido o uso destes dispositivos durante o teste;
-
-- Posicionamento dos pés: o posicionamento dos pés deve ser natural e confortável, completamente apoiados no chão, à distância aproximada da largura dos ombros e um pouco atrás da linha dos joelhos; 
-
-## interpretação
-
-Testes com “oito ou menos repetições em 30 segundos”, em pessoas ativas idosas vivendo na comunidade, apresenta risco de declínio funcional precoce.
-
-**Fontes:**
-
-- Rikli, R. E., & Jones, C. J. (2012). Development and Validation of Criterion-Referenced Clinically Relevant Fitness Standards for Maintaining Physical Independence in Later Years. In The Gerontologist (Vol. 53, Issue 2, pp. 255–267). Oxford University Press (OUP). https://doi.org/10.1093/geront/gns071
-
-- Bruun, I. H., Mogensen, C. B., Nørgaard, B., Schiøttz-Christensen, B., & Maribo, T. (2019). Validity and Responsiveness to Change of the 30-Second Chair-Stand Test in Older Adults Admitted to an Emergency Department. In Journal of Geriatric Physical Therapy (Vol. 42, Issue 4, pp. 265–274). Ovid Technologies (Wolters Kluwer Health). https://doi.org/10.1519/jpt.0000000000000166
-
-- Lord, S. R., Murray, S. M., Chapman, K., Munro, B., & Tiedemann, A. (2002). Sit-to-Stand Performance Depends on Sensation, Speed, Balance, and Psychological Status in Addition to Strength in Older People. In The Journals of Gerontology Series A: Biological Sciences and Medical Sciences (Vol. 57, Issue 8, pp. M539–M543). Oxford University Press (OUP). https://doi.org/10.1093/gerona/57.8.m539
+<div style="font-size: 1.2em;">
+  <ul>
+    <li>Escolha um ambiente bem iluminado, com espaço livre de, no mínimo, 3 por 5 metros.</li>
+    <br>
+    <li>Certifique-se de que não haja obstáculos nas laterais, para garantir segurança durante a realização do teste.</li>
+    <br>
+    <li>O local deve ser seguro, livre de obstáculos e contar com supervisão adequada para prevenir quedas e lesões durante a execução do teste.</li>
+  </ul>
+</div>
 
 
-# {.unnumbered .unlisted .tabset}
+## **4**
+
+<br>
+
+### Instruções
+
+<br>
+
+<div style="font-size: 1.2em;">
+  <ul>
+    <li>Realize pelo menos uma tentativa ou ensaio antes do teste oficial, para garantir a familiarização e a compreensão dos movimentos.</li>
+    <br>
+    <li>Utilize uma cadeira padrão, com encosto reto e sem apoio de braços, preferencialmente uma cadeira que já faça parte do seu ambiente doméstico. A altura do assento deve ser próxima à altura do joelho e a cadeira deve estar encostada em uma parede ou móvel, para garantir segurança durante a execução.</li>
+    <br>
+    <li>Durante o teste, não será permitido utilizar os braços da cadeira para apoio ou impulsão, nem encostar-se no encosto ao levantar-se.</li>
+    <br>
+    <li>Não é permitido o uso de muletas, bengalas ou qualquer outro dispositivo de auxílio durante o teste.</li>
+    <br>
+    <li>Posicione os pés de maneira natural e confortável, completamente apoiados no chão, com distância aproximada da largura dos ombros e levemente atrás da linha dos joelhos.</li>
+  </ul>
+</div>
+
+## **5**
+
+<br>
+
+### Cronômetro e contador
+
+<br>
 
 <center>
-    <br>
-    <div id="clock" style="font-size: 52px;">00:30</div>
-    <br>
-    <input style="font-size:52px; width:30%; border-color:black; text-align:center;" type="number" id="numberInput" name="numberInput" min="0" step="1" required>
-    <br>
-    <br>
-    <button id="startButton">Iniciar</button>
-    <button id="stopButton">Parar</button>
-    <button id="resetButton">Recomeçar</button>
-    <button id="emailButton">Enviar resultados</button>
-    <br>
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+<div id="clock" style="font-size: 52px;">00:30</div>
+<div style="font-size:52px;">→</div>
+<input 
+style="font-size:52px; width:100px; border-color:black; text-align:center;" 
+type="number" 
+id="numberInput" 
+name="numberInput" 
+min="0" 
+step="1" 
+required>
+</div>
+<br>
+<br>
+<button id="startButton" style="font-size:32px;width:100%;">Iniciar</button>
+<br>
+<br>
+<button id="stopButton" style="font-size:32px;width:100%;">Parar</button>
+<br>
+<br>
+<button id="resetButton" style="font-size:32px;width:100%;">Recomeçar</button>
+<br>
+<br>
+<button id="emailButton" style="font-size:32px;width:100%;"><strong>Enviar resultado</strong></button>
 </center>
 
-<script>
+## **6**
+
+<br>
+
+### Interpretação
+
+<br>
+
+<div style="font-size: 1.2em;">
+  <ul>
+    <li>Se você fizer mais de 8 repetições em 30 segundos, isso indica uma boa capacidade funcional para sua faixa etária.</li>
+    <br>
+    <li>Se você fizer 8 ou menos repetições em 30 segundos, isso pode indicar risco de declínio funcional precoce, mesmo que seja uma pessoa idosa ativa que vive na comunidade.</li>
+  </ul>
+</div>
+
+## **7**
+
+<br>
+
+### Leitura recomendada
+
+<br>
+
+-- Rikli, R. E., & Jones, C. J. (2012). Development and Validation of Criterion-Referenced Clinically Relevant Fitness Standards for Maintaining Physical Independence in Later Years. In The Gerontologist (Vol. 53, Issue 2, pp. 255–267). Oxford University Press (OUP). https://doi.org/10.1093/geront/gns071
+
+<br>
+
+-- Bruun, I. H., Mogensen, C. B., Nørgaard, B., Schiøttz-Christensen, B., & Maribo, T. (2019). Validity and Responsiveness to Change of the 30-Second Chair-Stand Test in Older Adults Admitted to an Emergency Department. In Journal of Geriatric Physical Therapy (Vol. 42, Issue 4, pp. 265–274). Ovid Technologies (Wolters Kluwer Health). https://doi.org/10.1519/jpt.0000000000000166
+
+<br>
+
+-- Lord, S. R., Murray, S. M., Chapman, K., Munro, B., & Tiedemann, A. (2002). Sit-to-Stand Performance Depends on Sensation, Speed, Balance, and Psychological Status in Addition to Strength in Older People. In The Journals of Gerontology Series A: Biological Sciences and Medical Sciences (Vol. 57, Issue 8, pp. M539–M543). Oxford University Press (OUP). https://doi.org/10.1093/gerona/57.8.m539
+
+```{js, echo=FALSE}
 let timer;
 let isRunning = false;
 let elapsedSeconds = 30; // Start from 30 seconds
@@ -90,8 +166,8 @@ function startClock() {
                 elapsedSeconds--;
                 updateClock();
             } else {
-                clearInterval(timer); // Stop the countdown when it reaches 0
-                alarmSound.play(); // Play the alarm sound when the timer hits zero
+                clearInterval(timer);
+                alarmSound.play();
                 isRunning = false;
             }
         }, 1000);
@@ -108,17 +184,31 @@ function stopClock() {
 // Function to reset the countdown
 function resetClock() {
     stopClock();
-    elapsedSeconds = 30; // Reset to 30 seconds
-    updateClock(); // Update display to 00:30
+    elapsedSeconds = 30;
+    updateClock();
 }
 
-// Function to send the clock time via email
+// Function to send time + number + geolocation by email
 function sendEmail() {
     const numberInput = document.getElementById("numberInput").value;
-    const email = "alexandresancho.fisio@gmail.com"; // Replace with your email
+    const timeString = formatTime(elapsedSeconds);
+    const email = "ciencia.cidada.saude@gmail.com";
     const subject = "Sentar-e-Levantar";
-    const body = `${numberInput}`;
-    window.location.href = `mailto:alexandresancho.fisio@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function(position) {
+            const lat = position.coords.latitude.toFixed(6);
+            const lon = position.coords.longitude.toFixed(6);
+            const body = `Contagem: ${numberInput}%0D%0ATempo restante: ${timeString}%0D%0ALatitude: ${lat}%0D%0ALongitude: ${lon}`;
+            window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${body}`;
+        }, function(error) {
+            const body = `Contagem: ${numberInput}%0D%0ATempo restante: ${timeString}%0D%0ALocalização não disponível.`;
+            window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${body}`;
+        });
+    } else {
+        const body = `Contagem: ${numberInput}%0D%0ATempo restante: ${timeString}%0D%0ALocalização não suportada neste dispositivo.`;
+        window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${body}`;
+    }
 }
 
 // Event listeners for buttons
@@ -126,5 +216,4 @@ document.getElementById("startButton").onclick = startClock;
 document.getElementById("stopButton").onclick = stopClock;
 document.getElementById("resetButton").onclick = resetClock;
 document.getElementById("emailButton").onclick = sendEmail;
-</script>
-
+```
