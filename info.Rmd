@@ -23,14 +23,12 @@ Avaliar a percepção e confiabilidade dos testes de força e funcionalidade tim
 
 ## Objetivos específicos
 
-1. Avaliar a percepção e a confiabilidade do tempo gasto para realizar os testes TUG e TSL pelo paciente idoso em sua residência, através da plataforma SAUDE e correlacionar com os achados reais laboratoriais.
+1. Criar uma plataforma online Sistema de Avaliação e Utilização de Dados sobre Eqiulíbrio (SAUDE) para registro, acompanhamento e análise agregada e estruturada de dados sobre funcionalidade e atividade física para planejamentos, ações e impactos voltados à promoção da saúde.
 
-2. Analisar a capacidade de predição de quedas futuras em idosos, através dos testes TUG e apoio unipodal.
+2. Avaliar a percepção e a confiabilidade do tempo gasto para realizar os testes TUG e TSL pelo paciente idoso em sua residência, através da plataforma SAUDE e correlacionar com os achados reais laboratoriais.
 
 3. Avaliar a mensuração do teste de apoio unipodal e correlacionar com os achados do TUG e TSL.
 
-4. Criar uma plataforma online Sistema de Avaliação e Utilização de Dados sobre Envelhecimento (SAUDE) para registro, acompanhamento e análise agregada e estruturada de dados sobre funcionalidade e atividade física para planejamentos, ações e impactos voltados à promoção da saúde de idosos.
-
-5. Descrever o perfil funcional (força muscular e risco de queda) da população idosa.
+4. Analisar a capacidade de predição de quedas futuras em idosos, através dos testes TUG e apoio unipodal.
 
 <br>

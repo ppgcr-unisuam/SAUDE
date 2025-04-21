@@ -1,6 +1,6 @@
 ---
 title: "**SAUDE**"
-subtitle: "**S**istema de **A**valiação e **U**tilização de **D**ados sobre **E**nvelhecimento"
+subtitle: "**S**istema de **A**valiação e **U**so de **D**ados sobre **E**quilíbrio"
 author:
   - "Alexandre Gomes Sancho, candidato DSc"
   - "Arthur de Sá Ferreira, DSc"
