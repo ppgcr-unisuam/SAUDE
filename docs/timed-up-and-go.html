@@ -281,6 +281,20 @@ $(document).ready(function () {
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
 </div><!--/.navbar -->
+<!--Script for adding a Google Translation bar-->
+
+<html lang="pt-BR">
+<div align="right" id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'pt'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
+
+</html>
 
 <div id="header">
 
@@ -537,6 +551,28 @@ document.getElementById("emailButton").onclick = sendEmail;
 </div>
 </div>
 
+<!--script for generating HORIZONTAL LINE-->
+<hr style="height:10px;border-width:0;color:black;background-color:black">
+
+<br>
+
+<div style="text-align: center; vertical-align: baseline">
+  <p>Copyright &copy; 2025-<script type="text/javascript">document.write( new Date().getFullYear() );</script> Arthur de Sá Ferreira, DSc. Todos os direitos reservados. Última atualização em <span id="datetime"></span><script>var dt = new Date().toLocaleDateString(); document.getElementById("datetime").innerHTML=dt.toLocaleString();</script>.<p/></div>
+
+<div style="text-align: center; vertical-align: baseline;">
+  <p><b>SAUDE</b> por <a id="cy-effective-orcid-url" class="underline" href="https://orcid.org/0000-0001-7014-2002" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align: baseline;"> <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width: 1em; margin-inline-start: 0.5em" alt="ORCID iD icon"/> Arthur de Sá Ferreira</a> está licenciado sob <a rel="license" data-spdx="Apache-2.0" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></p>
+</div>
+
+<div style="text-align: center; vertical-align: baseline;">
+  <img style="vertical-align: center" width="1.5%" src="https://raw.githubusercontent.com/rstudio/hex-stickers/main/thumbs/RStudio.png"> Desenvolvido em <a href="https://www.rstudio.com/" target="_blank">RStudio</a> usando <a href="https://rmarkdown.rstudio.com" target="_blank">R Markdown</a>
+</div>
+
+<br>
+
+<!--print ZENODO citation-->
+<div style="text-align: center; vertical-align: baseline;">
+<a href="https://doi.org/10.5281/zenodo.15292451"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15292451.svg" alt="DOI"></a>
+</div>
 
 
 

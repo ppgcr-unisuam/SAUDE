@@ -1,6 +1,6 @@
 ---
 title: "**SAUDE**"
-subtitle: "**S**istema de **A**valiação e **U**so de **D**ados sobre **E**quilíbrio"
+subtitle: "**S**istema de **A**valiação e **U**so de **D**ados sobre **E**nvelhecimento"
 ---
 
 <br>
