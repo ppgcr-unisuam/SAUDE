@@ -1,0 +1,10 @@
+---
+title: "**SAUDE**"
+subtitle: "**S**istema de **A**valiação e **U**so de **D**ados sobre **E**nvelhecimento"
+---
+
+<br>
+
+**SAUDE** foi desenvolvida a partir da tese de Doutorado Acadêmico em Ciências da Reabilitação pelo Centro Universitário Augusto Motta [UNSUAM](https://hs.unisuam.edu.br/ppgcr-ciencias-da-reabilitacao), por <a id="cy-effective-orcid-url" class="underline" href="https://orcid.org/0000-0003-1902-7257" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align: baseline;"> <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width: 1em; margin-inline-start: 0.5em" alt="ORCID iD icon"/> Alexandre Gomes Sancho</a> ([Lattes](http://lattes.cnpq.br/9275662393258083)), sob orientação de <a id="cy-effective-orcid-url" class="underline" href="https://orcid.org/0000-0001-7014-2002" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align: baseline;"> <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width: 1em; margin-inline-start: 0.5em" alt="ORCID iD icon"/> Arthur de Sá Ferreira</a> ([Lattes](http://lattes.cnpq.br/5432142731317894)).
+
+<br>

@@ -16,13 +16,18 @@ navbar:
     - text: ""
       icon: "fa-home"
       href: [index.html]
+    - text: "SAUDE"
+      href: [saude.html]
   right:
-    - text: "RCLE"
-      icon: "fa-clipboard-check"
-      href: [RCLE.html]
     - text: "Sobre"
       icon: "fa-info-circle"
-      href: [info.html]
+      href: [sobre.html]
+    - text: "Termos de Uso"
+      icon: "fa-file-alt"
+      href: [termos.html]
+    - text: "Registro de consetimento"
+      icon: "fa-clipboard-check"
+      href: [RCLE.html]
 
 output:
   html_document:

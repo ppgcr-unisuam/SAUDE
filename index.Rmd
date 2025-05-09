@@ -1,73 +1,83 @@
----
-title: "**SAUDE**"
-subtitle: "**S**istema de **A**valiação e **U**so de **D**ados sobre **E**nvelhecimento"
----
+<br>
+
+<!--install and/or load all R packages-->
+```{r setup, include = FALSE, echo = FALSE, warning = FALSE, message = FALSE, fig.align = 'center', out.width = "100%", results = "hide"}
+library("dplyr")
+library("htmltools")
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  fig.align = 'center',
+  results = "asis",
+  include = TRUE,
+  out.width = "100%",
+  knitr.kable.NA = '',
+  knitr.table.format = "html"
+)
+```
+
+```{r galeria-consultoria}
+library("dplyr")
+
+img_path <- list.files(path = file.path("imagens", "carousel"), full.names = TRUE, recursive = FALSE)
+
+# Initialize carousel
+carousel <- bsplus::bs_carousel(id = "ciencia-cidada",
+                                use_indicators = TRUE,
+                                use_controls = FALSE) %>% 
+  bsplus::bs_set_data(interval = 3000)
+
+# Iterate and append slides to the carousel
+for (i in 1:length(img_path)) {
+  img <- img_path[i]
+  slide <- bsplus::bs_carousel_image(src = img)
+  carousel <- bsplus::bs_append(carousel, content = slide)
+}
+
+# Output carousel
+carousel
+```
+
+<br>
+
+# **Seja um Cientista Cidadão!**
+
+Você sabia que pode contribuir com a ciência usando apenas o seu celular?
+
+A Plataforma SAUDE convida você — pessoa idosa ou cuidador — a fazer parte de uma pesquisa inovadora sobre saúde e envelhecimento! Ao participar, você se torna um cientista cidadão, ajudando a coletar dados importantes sobre equilíbrio, mobilidade e funcionalidade física.
+
+<br>
+
+# Por que participar?
+
+- Você acompanha sua própria saúde de forma autônoma.
+
+- Contribui para melhorar políticas públicas e ações de saúde.
+
+- Fortalece sua autonomia e promove um envelhecimento saudável.
+
+- Ajuda pesquisadores a entender melhor como vivem e se movem os idosos no dia a dia.
+
+<br>
+
+# Como participar?
+
+Basta utilizar o nosso aplicativo gratuito para realizar testes simples, como o Sentar e Levantar, o Apoio em Um Pé Só e o Timed Up and Go (TUG), diretamente na sua casa.
+
+<br>
+
+# Sua experiência pode transformar o futuro da saúde!
+
+Participe da construção do conhecimento.
+
+Seja protagonista da sua saúde. Seja um **cientista cidadão**.
 
 <br>
 
 <center>
-<video src="videos/index.mp4" width="100%" controls></video>
+![](imagens/citizenscience.png)
 </center>
 
 <br>
-
-```{r accordeon, echo = FALSE}
-bsplus::bs_accordion(id = "testes") |>
-  bsplus::bs_set_opts(panel_type = "primary", use_heading_link = TRUE, open = FALSE) |>
-  bsplus::bs_append(
-    title =  htmltools::HTML("<span style='font-size: 30px; display: block; text-align: center; padding: 10px 30px 10px 30px;'>
-                             Levantar e ir
-                             <br>
-                             <i class=\"fa-solid fa-chair\"></i>
-                             <i class=\"fa-solid fa-person-walking-arrow-loop-left\"></i>
-                             </span>"),
-    content = htmltools::HTML(
-      "<div style='font-size: 20px;'>
-          Este teste avalia a sua mobilidade, equilíbrio e agilidade, medindo o tempo necessário para você completar um percurso que envolve caminhar, trocar de direção e realizar mudanças posturais. Esse teste fornece informações sobre a sua capacidade funcional e risco de quedas.
-          <br><br>
-          <center><a style='border: 2px solid #000; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;' href='timed-up-and-go.html'>TESTE AGORA!</a></center>
-      </div>"
-    )
-  ) |>
-  bsplus::bs_append(
-    title =  htmltools::HTML("<span style='font-size: 30px; display: block; text-align: center; padding: 10px 30px 10px 30px;'>
-                             Sentar e levantar
-                             <br>
-                             <i class=\"fa-solid fa-chair\"></i>
-                             <i class=\"fa-solid fa-person\"></i>
-                             <i class=\"fa-solid fa-up-down\"></i>
-                             </span>"),
-    content = htmltools::HTML(
-      "<div style='font-size: 20px;'>
-          Neste teste, são contadas quantas vezes você consegue se levantar e sentar de uma cadeira em 30 segundos. Esse exame avalia a sua força muscular, equilíbrio e agilidade.
-          <br><br>
-          <center><a style='border: 2px solid #000; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;' href='sentar-e-levantar.html'>TESTE AGORA!</a></center>
-      </div>"
-    )
-  ) |>
-  bsplus::bs_append(
-    title =  htmltools::HTML("<span style='font-size: 30px; display: block; text-align: center; padding: 10px 30px 10px 30px;'>
-                             Apoio unipodal
-                             <br>
-                             <i class=\"fa-solid fa-person\"></i>
-                             </span>"),
-    content = htmltools::HTML(
-      "<div style='font-size: 20px;'>
-          Este teste avalia a sua capacidade de manter o equilíbrio enquanto está em pé sobre uma perna. Esse exame é fundamental para a avaliação do seu equilíbrio estático.
-          <br><br>
-          <center><a style='border: 2px solid #000; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;' href='apoio-unipodal.html'>TESTE AGORA!</a></center>
-      </div>"
-    )
-  )
-```
-
-```{r, echo=FALSE, results='asis'}
-htmltools::tags$script(htmltools::HTML("
-  document.addEventListener('DOMContentLoaded', function() {
-    // Close all panels (remove Bootstrap's 'show' class)
-    document.querySelectorAll('.collapse.in').forEach(function(el) {
-      el.classList.remove('in');
-    });
-  });
-"))
-```

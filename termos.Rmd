@@ -1,0 +1,46 @@
+---
+title: "**SAUDE**"
+subtitle: "**S**istema de **A**valiação e **U**so de **D**ados sobre **E**quilíbrio"
+---
+
+<br>
+
+## **Termos de uso**
+
+Nosso aplicativo foi desenvolvido com foco na transparência, segurança e respeito à sua privacidade, em conformidade com a Lei Geral de Proteção de Dados (LGPD).
+
+<br>
+
+## 📋 Coleta e Uso de Dados
+
+Ao utilizar este aplicativo, dados pessoais e de localização poderão ser coletados com a finalidade exclusiva de personalizar os resultados dos testes de saúde e contribuir com pesquisas científicas. Sempre que houver necessidade de novos dados ou finalidades distintas, você será informado e poderá escolher o que deseja compartilhar.
+
+<br>
+
+## ✅ Consentimento Livre e Esclarecido
+
+Antes de coletarmos qualquer informação, você verá uma mensagem explicando claramente o motivo da coleta. Você só seguirá adiante se der seu consentimento, clicando na opção "Enviar". Esses dados serão usados exclusivamente para análise da sua saúde e serão compartilhados com a equipe de pesquisa do projeto. Ao continuar, você concorda com os Termos de Uso e nossa Política de Privacidade.
+
+<br>
+
+## 🔐 Segurança dos Seus Dados
+
+Todos os dados sensíveis são protegidos com criptografia durante a transmissão e armazenamento. Somente pessoas autorizadas da equipe de pesquisa têm acesso a essas informações, garantindo o sigilo e a integridade dos seus dados.
+
+<br>
+
+## ⚙️ Seus Direitos e Controles
+
+Você terá sempre o controle sobre os dados fornecidos. No menu do app, há uma seção dedicada à Privacidade, onde é possível:
+
+Revisar as informações compartilhadas;
+Revogar seu consentimento a qualquer momento;
+Solicitar a exclusão dos seus dados.
+
+<br>
+
+## Atualizações e Incidentes
+
+Caso nossa Política de Privacidade sofra alterações importantes, você será avisado dentro do aplicativo. Se necessário, um novo consentimento será solicitado. Em caso de qualquer incidente envolvendo os seus dados, notificaremos você imediatamente e comunicaremos os órgãos competentes, conforme exige a LGPD.
+
+<br>
